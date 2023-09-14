@@ -15,7 +15,10 @@
 
   .header-links{
     flex: 1;
-    padding:50px
+    padding:50px;
+    justify-content: flex-start;
+    padding-left: 250px;
+    padding-right: 0px;
   }
 
   .header-rechts{
@@ -147,6 +150,7 @@ button{
     text-align-last: center;
 
   }
+  
   img{
     height: 192px;
     width: 256px;
@@ -159,4 +163,9 @@ button{
   
   a{
     color: white;
+  }
+
+.LOGO{
+    width: 120px;
+    height: 120px;
   }
