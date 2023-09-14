@@ -1,0 +1,162 @@
+
+ header {
+    display: flex;
+    flex-direction: row;
+    
+ }
+  header div{
+
+    background: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .header-links{
+    flex: 1;
+    padding:50px
+  }
+
+  .header-rechts{
+    flex: 1;
+  
+
+  }
+
+  
+  .one  {
+    background: #1F2937;
+    color: #F9FAF8;
+    align-items: flex-start;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  .one-links div{
+    border-left: 50px solid #1F2937;
+    flex: 1;
+    justify-content: left;
+
+  
+    
+  }
+
+  .one-rechts{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .two div{
+    background: white;
+    color: black;
+   
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+
+  .two_header{
+    padding: 20px;
+    text-align: center;
+  }
+
+  .two_content div{
+    
+    flex-direction: column;
+    
+    
+  }
+
+  .two_content-photos {
+    flex: 1;
+    border:4px  #3882F6 solid;
+    border-radius: 20px;
+    width: 256px;
+    height: 192px;
+    padding: 0;
+    
+
+  }
+  .two_content-text {
+   text-align: center;
+   width: 256px;
+   padding: 20px;
+  }
+
+
+
+  .three{
+    background: #E5E7EB;
+   
+    font-family: sans-serif;
+    color:#1F2937;
+    height: auto;
+    flex: 1 1 0%;
+    padding: 60px;
+    text-align: center;
+  }
+
+  .four{
+    margin: 30px;
+    background-color: #3882F6;
+    border:3px solid #3882F6;
+    height: auto;
+    flex: 1 1 0%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  }
+button{
+    background-color: #3882F6;
+    height: auto;
+    border-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+}
+
+.button-four-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.sign-in-button {
+    height: auto;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    
+   
+}
+ 
+  footer{
+    background: #1F2937;
+    color: #F9FAF8;
+   
+    padding: 20px;
+    text-align-last: center;
+
+  }
+  img{
+    height: 192px;
+    width: 256px;
+    border-radius: 15px;
+  }
+
+  body{
+    margin: 0;
+  }
+  
+  a{
+    color: white;
+  }
